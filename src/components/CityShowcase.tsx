@@ -1,29 +1,36 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/enhanced-button";
-import landmarksImage from "@/assets/mendoza-landmarks.jpg";
+import mendoza1 from "@/assets/mendoza-1.jpg";
+import mendoza2 from "@/assets/mendoza-2.jpg";
+import mendoza3 from "@/assets/mendoza-3.jpg";
 
 const CityShowcase = () => {
   const landmarks = [
     {
       name: "Plaza Independencia",
-      description: "El corazón histórico de Mendoza, rodeado de palmeras centenarias y arquitectura colonial."
+      description: "El corazón histórico de Mendoza, rodeado de palmeras centenarias y arquitectura colonial.",
+      image: mendoza1
     },
     {
       name: "Cerro Aconcagua",
-      description: "La montaña más alta de América, un símbolo de grandeza y aventura mendocina."
+      description: "La montaña más alta de América, un símbolo de grandeza y aventura mendocina.",
+      image: mendoza2
     },
     {
       name: "Bodegas históricas",
-      description: "Tradición vitivinícola con más de 400 años de historia en los mejores terroirs."
+      description: "Tradición vitivinícola con más de 400 años de historia en los mejores terroirs.",
+      image: mendoza3
     },
     {
       name: "Parque San Martín",
-      description: "600 hectáreas de naturaleza urbana con el famoso rosedal y vistas panorámicas."
+      description: "600 hectáreas de naturaleza urbana con el famoso rosedal y vistas panorámicas.",
+      image: mendoza1
     },
     {
       name: "Centro histórico",
-      description: "Arquitectura que cuenta la historia de una ciudad que renació tras el terremoto de 1861."
+      description: "Arquitectura que cuenta la historia de una ciudad que renació tras el terremoto de 1861.",
+      image: mendoza2
     }
   ];
 
@@ -54,8 +61,8 @@ const CityShowcase = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-3xl shadow-mountain">
               <img 
-                src={landmarksImage}
-                alt="Lugares emblemáticos de Mendoza"
+                src={landmarks[currentLandmark].image}
+                alt={`${landmarks[currentLandmark].name} - Mendoza`}
                 className="w-full h-[500px] object-cover transition-smooth hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
