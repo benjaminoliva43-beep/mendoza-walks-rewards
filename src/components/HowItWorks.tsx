@@ -73,7 +73,7 @@ const HowItWorks = () => {
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 blur-3xl transform scale-110"></div>
               <img 
                 src={appMockup}
-                alt="Interfaz de la app TUR I mostrando sistema de recompensas"
+                alt="Interfaz de la app TURI mostrando sistema de recompensas"
                 className="relative w-80 h-80 object-cover rounded-3xl shadow-mountain hover:shadow-glow transition-smooth hover:scale-105 float-animation"
               />
             </div>

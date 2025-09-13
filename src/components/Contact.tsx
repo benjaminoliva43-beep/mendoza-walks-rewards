@@ -10,7 +10,7 @@ const Contact = () => {
             Conectá con nosotros
           </h2>
           <p className="text-xl text-muted-foreground">
-            Seguinos en nuestras redes y mantente al día con las novedades de TUR I
+            Seguinos en nuestras redes y mantente al día con las novedades de TURI
           </p>
         </div>
 
@@ -77,7 +77,7 @@ const Contact = () => {
           {/* Video Section */}
           <div className="bg-muted rounded-2xl p-8 shadow-warm">
             <h3 className="font-serif text-2xl font-semibold text-foreground mb-6">
-              Conocé más sobre TUR I
+              Conocé más sobre TURI
             </h3>
             
             <div className="aspect-video bg-gradient-to-br from-primary/20 to-accent/20 rounded-xl flex items-center justify-center mb-6 border-2 border-dashed border-primary/30">
@@ -104,10 +104,10 @@ const Contact = () => {
             ¿Listo para comenzar tu aventura?
           </h3>
           <p className="text-lg text-muted-foreground mb-6">
-            Descargá TUR I y comenzá a explorar Mendoza de una forma completamente nueva
+            Descargá TURI y comenzá a explorar Mendoza de una forma completamente nueva
           </p>
           <Button variant="hero" size="xl">
-            Descargar TUR I
+            Descargar TURI
           </Button>
         </div>
       </div>

@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-glow to-accent flex items-center justify-center">
                 <MapPin className="h-6 w-6 text-white" />
               </div>
-              <span className="font-serif text-2xl font-bold">TUR I</span>
+              <span className="font-serif text-2xl font-bold">TURI</span>
             </div>
             <p className="text-background/80 leading-relaxed">
               Explorá Mendoza, conectá con cultura e historia, y ganá mientras caminás.

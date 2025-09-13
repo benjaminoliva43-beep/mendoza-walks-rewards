@@ -5,7 +5,7 @@ const About = () => {
     <section className="py-20 bg-gradient-to-br from-background via-card to-muted">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-8">
-          ¿Qué es TUR I?
+          ¿Qué es TURI?
         </h2>
 
         <div className="mb-12">
@@ -19,7 +19,7 @@ const About = () => {
           </p>
           
           <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            TUR I nace de la pasión por nuestra tierra mendocina y el deseo de compartir 
+            TURI nace de la pasión por nuestra tierra mendocina y el deseo de compartir 
             sus tesoros con el mundo. Combinamos tecnología moderna con la calidez de 
             nuestra cultura para crear experiencias memorables.
           </p>

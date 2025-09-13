@@ -115,7 +115,7 @@ const CityShowcase = () => {
 
             <div className="bg-card rounded-2xl p-6 shadow-warm">
               <h4 className="font-semibold text-card-foreground mb-4">
-                Con TUR I podés:
+                Con TURI podés:
               </h4>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center gap-2">
