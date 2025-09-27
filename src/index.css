@@ -6,8 +6,8 @@
 
 @layer base {
   :root {
-    /* Backgrounds - Azul y blanco */
-    --background: 0 0% 100%;
+    /* Backgrounds - Celeste */
+    --background: 194 100% 95%;
     --foreground: 220 13% 13%;
 
     /* Cards - Superficie blanca con toques azules */
