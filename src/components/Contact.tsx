@@ -1,4 +1,4 @@
-import { Instagram, Mail, Youtube, MapPin, Phone } from "lucide-react";
+import { Instagram, Mail, Youtube, MapPin, Phone, Video } from "lucide-react";
 import { Button } from "@/components/ui/enhanced-button";
 
 const Contact = () => {
@@ -60,12 +60,15 @@ const Contact = () => {
               <h4 className="font-serif text-xl font-semibold text-foreground mb-4">
                 Seguinos en redes
               </h4>
-              <div className="flex gap-4">
+               <div className="flex gap-4">
                 <Button variant="outline" size="icon" className="hover:bg-pink-500 hover:text-white hover:border-pink-500 transition-bounce">
                   <Instagram className="h-5 w-5" />
                 </Button>
                 <Button variant="outline" size="icon" className="hover:bg-red-500 hover:text-white hover:border-red-500 transition-bounce">
                   <Youtube className="h-5 w-5" />
+                </Button>
+                <Button variant="outline" size="icon" className="hover:bg-black hover:text-white hover:border-black transition-bounce">
+                  <Video className="h-5 w-5" />
                 </Button>
                 <Button variant="outline" size="icon" className="hover:bg-blue-500 hover:text-white hover:border-blue-500 transition-bounce">
                   <Mail className="h-5 w-5" />
