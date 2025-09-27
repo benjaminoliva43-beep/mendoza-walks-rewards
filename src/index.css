@@ -6,56 +6,56 @@
 
 @layer base {
   :root {
-    /* Backgrounds - Tonos tierra y cielo mendocino */
-    --background: 42 15% 98%;
-    --foreground: 25 15% 15%;
+    /* Backgrounds - Azul y blanco */
+    --background: 0 0% 100%;
+    --foreground: 220 13% 13%;
 
-    /* Cards - Superficie clara con calidez */
-    --card: 45 20% 96%;
-    --card-foreground: 25 15% 15%;
+    /* Cards - Superficie blanca con toques azules */
+    --card: 0 0% 98%;
+    --card-foreground: 220 13% 13%;
 
     /* Popovers */
-    --popover: 45 20% 96%;
-    --popover-foreground: 25 15% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 13%;
 
-    /* Primary - Terracota mendocino */
-    --primary: 15 65% 55%;
-    --primary-foreground: 45 20% 96%;
-    --primary-glow: 15 75% 65%;
+    /* Primary - Azul vibrante */
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 217 91% 70%;
 
-    /* Secondary - Vino mendocino */
-    --secondary: 345 45% 45%;
-    --secondary-foreground: 45 20% 96%;
+    /* Secondary - Azul claro */
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 13% 13%;
 
-    /* Muted - Tonos suaves de montaña */
-    --muted: 210 15% 88%;
-    --muted-foreground: 25 8% 45%;
+    /* Muted - Tonos suaves azules */
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
 
-    /* Accent - Azul cielo mendocino */
-    --accent: 200 45% 55%;
-    --accent-foreground: 45 20% 96%;
+    /* Accent - Azul suave */
+    --accent: 217 91% 95%;
+    --accent-foreground: 217 91% 60%;
 
     /* Destructive */
-    --destructive: 0 65% 55%;
-    --destructive-foreground: 45 20% 96%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
 
     /* Borders and inputs */
-    --border: 210 15% 85%;
-    --input: 210 15% 85%;
-    --ring: 15 65% 55%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 91% 60%;
 
     /* Border radius */
     --radius: 0.75rem;
 
-    /* Custom Mendoza gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(15 65% 55%), hsl(345 45% 45%), hsl(200 45% 55%));
-    --gradient-sunset: linear-gradient(180deg, hsl(25 70% 60%) 0%, hsl(15 65% 55%) 50%, hsl(345 45% 45%) 100%);
-    --gradient-mountain: linear-gradient(180deg, hsl(200 45% 55%) 0%, hsl(210 15% 88%) 100%);
+    /* Custom blue and white gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 60%), hsl(217 91% 70%), hsl(0 0% 100%));
+    --gradient-sunset: linear-gradient(180deg, hsl(217 91% 70%) 0%, hsl(217 91% 60%) 50%, hsl(220 13% 91%) 100%);
+    --gradient-mountain: linear-gradient(180deg, hsl(217 91% 60%) 0%, hsl(0 0% 100%) 100%);
     
-    /* Shadows with warmth */
-    --shadow-warm: 0 10px 30px -10px hsl(15 65% 55% / 0.3);
-    --shadow-mountain: 0 20px 40px -15px hsl(210 15% 45% / 0.2);
-    --shadow-glow: 0 0 30px hsl(15 75% 65% / 0.4);
+    /* Shadows with blue tones */
+    --shadow-warm: 0 10px 30px -10px hsl(217 91% 60% / 0.3);
+    --shadow-mountain: 0 20px 40px -15px hsl(220 13% 45% / 0.2);
+    --shadow-glow: 0 0 30px hsl(217 91% 70% / 0.4);
 
     /* Animation variables */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -79,40 +79,40 @@
   }
 
   .dark {
-    /* Dark mode con calidez mendocina */
-    --background: 25 15% 8%;
-    --foreground: 45 20% 92%;
+    /* Dark mode con tonos azules */
+    --background: 220 13% 9%;
+    --foreground: 0 0% 95%;
 
-    --card: 25 15% 10%;
-    --card-foreground: 45 20% 92%;
+    --card: 220 13% 11%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 25 15% 10%;
-    --popover-foreground: 45 20% 92%;
+    --popover: 220 13% 11%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 15 65% 55%;
-    --primary-foreground: 25 15% 8%;
-    --primary-glow: 15 75% 65%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 220 13% 9%;
+    --primary-glow: 217 91% 70%;
 
-    --secondary: 345 45% 45%;
-    --secondary-foreground: 45 20% 92%;
+    --secondary: 220 13% 20%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 25 10% 15%;
-    --muted-foreground: 45 8% 65%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 220 9% 70%;
 
-    --accent: 200 45% 55%;
-    --accent-foreground: 45 20% 92%;
+    --accent: 217 91% 30%;
+    --accent-foreground: 0 0% 95%;
 
-    --destructive: 0 65% 55%;
-    --destructive-foreground: 45 20% 92%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 95%;
 
-    --border: 25 10% 18%;
-    --input: 25 10% 18%;
-    --ring: 15 65% 55%;
+    --border: 220 13% 18%;
+    --input: 220 13% 18%;
+    --ring: 217 91% 60%;
 
     /* Dark gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(15 65% 45%), hsl(345 45% 35%), hsl(200 45% 45%));
-    --gradient-sunset: linear-gradient(180deg, hsl(25 60% 40%) 0%, hsl(15 65% 35%) 50%, hsl(345 45% 25%) 100%);
-    --gradient-mountain: linear-gradient(180deg, hsl(200 35% 25%) 0%, hsl(25 10% 15%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 50%), hsl(217 91% 60%), hsl(220 13% 20%));
+    --gradient-sunset: linear-gradient(180deg, hsl(217 91% 60%) 0%, hsl(217 91% 50%) 50%, hsl(220 13% 18%) 100%);
+    --gradient-mountain: linear-gradient(180deg, hsl(217 91% 40%) 0%, hsl(220 13% 15%) 100%);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
