@@ -1,4 +1,4 @@
-import { Instagram, Mail, Youtube, MapPin, Phone, Video } from "lucide-react";
+import { Instagram, Mail, Youtube, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/enhanced-button";
 
 const Contact = () => {
@@ -68,7 +68,11 @@ const Contact = () => {
                   <Youtube className="h-5 w-5" />
                 </Button>
                 <Button variant="outline" size="icon" className="hover:bg-black hover:text-white hover:border-black transition-bounce">
-                  <Video className="h-5 w-5" />
+                  <img 
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACUCAMAAAAqEXLeAAAAZlBMVEX///8AAADr6+tQUFDj4+MzMzPm5ub5+fmoqKjv7+93d3cRERHd3d1gYGClpaWRkZHOzs68vLxAQEAhISEcHBzHx8dra2vX19eIiIhHR0d/f38oKCgICAhaWloWFhZVVVWdnZ2xsbGinzy4AAAEXElEQVR4nO2b2ZaCMAyGKTsIAi4oMI76/i854jIUulFJgZ7T/xaOfHZJ0iS1LCMjIyMjIyMjIyMjIyMjIx0URLbvPuXbUbA0DakgKbZZWTXoraYqs22RrIn0WDveDyL04zn1cWm2p/yiJPFwlYW/MGKe7fiIrXZZviDi6XIQI7Y6XE4LIebpOMKX0iVG0443MowIbWJ7ZsTgLon4xAxnNUmJ1Ex3SpP5GI/ed4wIeXPZzeD8LWKr8yxTHsVTGBGKoxkYq2mMCFXKKf39VEaE9or9pD/CC4q1U0oZjXSDIh0Uzvj09fiRunUZTNzXuGJVlmi0fTyUcas6pUTCH53VMB5HD9P1PZkub5sp8T3JeF/ofOIdnov3FPjxQCKm+Ie8895K4Zcl93ssSIv7WgjNaP9+Bcn9a7/QUbCU9ekgA+5RMoZlPEkF4h2k5Tec9jawxzO5SByDtCIeZQrJeJJi7EFaPu8PQg6l5JGmB8n1poBDmUsGP85g27o1KzI5wJ3GMzlGAvIx58fwHNOsWAbFKB3pkpCtAppfBYt/C0lGGUhUAEEKcnvTIEsgSFlGKUgEwzg+jvwKEiaurNVC1hCMwVUt5BUirEzkj9pSkDuICL3gnKbEkGFnYhiQPxBGKBxJ5lWO8y7kYJBbFH88HwMSJEAf5RPTe564tu8XDQGJDh9MBiSAZ+TH1k/tsv98hO+RkA/tb0kUsEaynL5zhKmVfYalTFw65ENNnDEScgApF5sXWbeMvc1JQI5Y0c3085jP/8LgLPUNJJoeCPEh68F6WiMkEf2vELIi9uX6IPfkAWV9kJQUI2EnF4fsT3Z+v93C7dDjLA3Zc2duiZnq2SGZxnyDW/Ft79HsxpzpFkvMm937j+QgAdwiM8DAZjsfeGU5SIAAgxWqYbEqkeyRg4RIYjA+s+8SYsTeokVBbEEEvYzjQ9OtJOLMKwUJcnxgHMS8biURYy0FCXIQYxxpMUgCRAoS5EjLSA543XQTCa20eyaGBEkOMNIsjfv/QjJ8hjn1mxASqHxH/e3f7sejy+AZZp3EORoYRkbq79a9MJhvLBS2HREjVOqPnkTF1lLQN/jdQrBc4UBCJVHp6WgPY8FL4R4eCgv3DVw7Bt0z9sag+MxrjLNbwt4XsMQ+o0Sy671jH7NrlW7zntUT5l8BSySMYpNwOYlTm5B1O3rZbicKBMUhEGgFlD6UggVlC0u7oAVQVimZG2UFgiwSeCmZVZS/cxjFOUPgojyzvWHLZBz6SlLg7Q3MTVDTd8+YcgB4owi75cahhTGZcD0qabnhNC+lp/5oRvcxfU4qmpe47uMaHj/ryy2yca1YilqQeQ11+ypN4zhOL2NLUzABOSktWhO1aPLUo11Wj8ZjPVq49WiG1+NawdQLGsPylDJpcNXF0uPS0GPKw/Vfv7K0uMjWSoMrga00uFzZSoNrqq00uPD70uqvTr+kwSX0t9Z+nd/IyMjIyMjIyMjIyMjIyIiiP8/jPQpvv/u8AAAAAElFTkSuQmCC" 
+                    alt="TikTok" 
+                    className="h-5 w-5 object-contain" 
+                  />
                 </Button>
                 <Button variant="outline" size="icon" className="hover:bg-blue-500 hover:text-white hover:border-blue-500 transition-bounce">
                   <Mail className="h-5 w-5" />
